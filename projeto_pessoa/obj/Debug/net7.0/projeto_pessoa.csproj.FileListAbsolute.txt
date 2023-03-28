@@ -1,0 +1,15 @@
+C:\Users\LAB4\Desktop\projeto_pessoa\bin\Debug\net7.0\projeto_pessoa.exe
+C:\Users\LAB4\Desktop\projeto_pessoa\bin\Debug\net7.0\projeto_pessoa.deps.json
+C:\Users\LAB4\Desktop\projeto_pessoa\bin\Debug\net7.0\projeto_pessoa.runtimeconfig.json
+C:\Users\LAB4\Desktop\projeto_pessoa\bin\Debug\net7.0\projeto_pessoa.dll
+C:\Users\LAB4\Desktop\projeto_pessoa\bin\Debug\net7.0\projeto_pessoa.pdb
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.csproj.AssemblyReference.cache
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.AssemblyInfoInputs.cache
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.AssemblyInfo.cs
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.csproj.CoreCompileInputs.cache
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.dll
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\refint\projeto_pessoa.dll
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.pdb
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\projeto_pessoa.genruntimeconfig.cache
+C:\Users\LAB4\Desktop\projeto_pessoa\obj\Debug\net7.0\ref\projeto_pessoa.dll
