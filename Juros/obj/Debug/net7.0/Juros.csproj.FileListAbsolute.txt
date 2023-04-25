@@ -1,0 +1,15 @@
+C:\Users\LAB4\Desktop\Juros\bin\Debug\net7.0\Juros.exe
+C:\Users\LAB4\Desktop\Juros\bin\Debug\net7.0\Juros.deps.json
+C:\Users\LAB4\Desktop\Juros\bin\Debug\net7.0\Juros.runtimeconfig.json
+C:\Users\LAB4\Desktop\Juros\bin\Debug\net7.0\Juros.dll
+C:\Users\LAB4\Desktop\Juros\bin\Debug\net7.0\Juros.pdb
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.csproj.AssemblyReference.cache
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.AssemblyInfoInputs.cache
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.AssemblyInfo.cs
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.csproj.CoreCompileInputs.cache
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.dll
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\refint\Juros.dll
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.pdb
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\Juros.genruntimeconfig.cache
+C:\Users\LAB4\Desktop\Juros\obj\Debug\net7.0\ref\Juros.dll
