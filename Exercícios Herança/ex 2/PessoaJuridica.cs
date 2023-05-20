@@ -7,6 +7,6 @@ class PessoaJuridica:Contrato
 
     public override string MostraDados()
     {
-        return base.MostraDados() + "Nome da empresa:" + NomeEmpresa + "CNPJ:" + CNPJ + "IE:" + IE;
+        return base.MostraDados() + "Nome da empresa: " + NomeEmpresa + "  " + "CNPJ: " + CNPJ + "  " + "IE: " + IE;
     }
 }

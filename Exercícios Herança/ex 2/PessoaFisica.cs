@@ -6,6 +6,6 @@ class PessoaFisica:Contrato
 
     public override string MostraDados()
     {
-        return base.MostraDados()+ "CPF: " + this.CPF + "Idade: " + this.Idade;
+        return base.MostraDados()+ "CPF: " + this.CPF + "  " + "Idade: " + this.Idade;
     }
 }

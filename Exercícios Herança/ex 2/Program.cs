@@ -3,6 +3,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.Clear();
+        
         //Intânciando a classe
         Contrato c = new Contrato();
         PessoaFisica pf = new PessoaFisica();
@@ -35,13 +37,7 @@ class Program
                     pf.Idade = Console.ReadLine();
 
                     Console.Clear();
-                    Console.WriteLine("Contrato de Pesso Física");
-                    Console.WriteLine("");
-                    Console.WriteLine("Nome: " + pf.Nome);
-                    Console.WriteLine("Email: " + pf.Email);
-                    Console.WriteLine("Telefone: " + pf.Telefone);
-                    Console.WriteLine("CPF: " + pf.CPF);
-                    Console.WriteLine("Idade: " + pf.Idade);
+                    Console.WriteLine(pf.MostraDados());
 
                     break;
 
@@ -63,14 +59,7 @@ class Program
                     pj.IE = Console.ReadLine();
 
                     Console.Clear();
-                    Console.WriteLine("Contrato Pessoa Jurídica");
-                    Console.WriteLine("");
-                    Console.WriteLine("Nome: " + pj.Nome);
-                    Console.WriteLine("Email: " + pj.Email);
-                    Console.WriteLine("Telefone: " + pj.Telefone);
-                    Console.WriteLine("Nome da Empresa: " + pj.NomeEmpresa);
-                    Console.WriteLine("CNPJ: " + pj.CNPJ);
-                    Console.WriteLine("IE: " + pj.IE);
+                    Console.WriteLine(pj.MostraDados());
 
                     break;
             }

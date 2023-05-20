@@ -8,7 +8,7 @@ class Contrato
 
     //Declarando o que as "classes filhas" vão herdar da "classe mãe"
     public virtual string MostraDados(){
-        string tudo = "Nome: " + this.Nome + "Email: " + this.Email + "Telefone: " + this.Telefone;
+        string tudo = "Nome: " + this.Nome + "  " + "Email: " + this.Email + "  " + "Telefone: " + this.Telefone + "  ";
         return tudo;
     }
 
