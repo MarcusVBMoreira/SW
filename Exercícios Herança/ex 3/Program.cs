@@ -3,6 +3,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.Clear();
+
         //Intânciando a classe
         Contrato c = new Contrato();
         PessoaFisica pf = new PessoaFisica();
@@ -34,8 +36,6 @@ class Program
                     Console.WriteLine("Escreva a sua Idade: ");
                     pf.Idade = Console.ReadLine();
 
-
-
                     Console.WriteLine("Digite o valor total que deja parcelar: ");
                     pf.Valor = 1000;
                     Console.WriteLine("Digite a quantidade de vazes que deseja parcelar");
@@ -43,12 +43,9 @@ class Program
                     Console.WriteLine("Qual é a sua idade");
                     pf.idade = 51;
                 
-                    
-                
                     Console.Clear();
                     Console.WriteLine(pf.MostraDados());
                     Console.WriteLine(pf.CalcularPrestação());
-
 
                     break;
 
@@ -69,12 +66,10 @@ class Program
                     Console.WriteLine("Escreva o IE da empresa:");
                     pj.IE = Console.ReadLine();
 
-
                     Console.WriteLine("Digite o valor total que deja parcelar: ");
                     pj.Valor = 1000;
                     Console.WriteLine("Digite a quantidade de vazes que deseja parcelar");
                     pj.Parcelas = 10;
-
 
                     Console.Clear();
                     Console.WriteLine(pj.MostraDados());
