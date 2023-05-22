@@ -34,18 +34,20 @@ class Program
                     Console.WriteLine("Escreva o seu CPF: ");
                     pf.CPF = Console.ReadLine();
                     Console.WriteLine("Escreva a sua Idade: ");
-                    pf.Idade = Console.ReadLine();
+                    pf.Idade = int.Parse(Console.ReadLine());
 
+                    Console.Clear();
+                    Console.WriteLine("Contrato Pessoa Jurídica");
+                    Console.WriteLine("Valores");
+                    Console.WriteLine("");
                     Console.WriteLine("Digite o valor total que deja parcelar: ");
-                    pf.Valor = 1000;
+                    pf.Valor = int.Parse(Console.ReadLine());
                     Console.WriteLine("Digite a quantidade de vazes que deseja parcelar");
-                    pf.Parcelas = 10;
-                    Console.WriteLine("Qual é a sua idade");
-                    pf.idade = 51;
+                    pf.Parcelas = int.Parse(Console.ReadLine());
                 
                     Console.Clear();
                     Console.WriteLine(pf.MostraDados());
-                    Console.WriteLine(pf.CalcularPrestação());
+                    Console.WriteLine("O valor das parcelas é de: R$" + pf.CalcularPrestação(pf.Valor, pf.Parcelas) + ",00 por " + pf.Parcelas + " meses");
 
                     break;
 
@@ -65,15 +67,19 @@ class Program
                     pj.CNPJ = Console.ReadLine();
                     Console.WriteLine("Escreva o IE da empresa:");
                     pj.IE = Console.ReadLine();
-
+                    
+                    Console.Clear();
+                    Console.WriteLine("Contrato Pessoa Jurídica");
+                    Console.WriteLine("Valores");
+                    Console.WriteLine("");
                     Console.WriteLine("Digite o valor total que deja parcelar: ");
-                    pj.Valor = 1000;
+                    pj.Valor = int.Parse(Console.ReadLine());
                     Console.WriteLine("Digite a quantidade de vazes que deseja parcelar");
-                    pj.Parcelas = 10;
+                    pj.Parcelas = int.Parse(Console.ReadLine());
 
                     Console.Clear();
                     Console.WriteLine(pj.MostraDados());
-                    Console.WriteLine(pj.CalcularPrestação());
+                    Console.WriteLine("O valor das parcelas é de: R$" + pj.CalcularPrestação(pj.Valor, pj.Parcelas) + ",00 por " + pj.Parcelas + " meses" );
 
                     break;
             }

@@ -11,9 +11,8 @@ class PessoaJuridica:Contrato
         return base.MostraDados() + "Nome da empresa:" + NomeEmpresa + "  " + "CNPJ:" + CNPJ + "  " + "IE:" + IE;
     }
 
-    public override string CalcularPrestação()
+    public override double CalcularPrestação(int Valor, int Parcelas)
     {
-        int totalpj = 3 + Total;
-        return  base.CalcularPrestação() + "O valor da prestação com juros é de: R$" + totalpj + ",00 por mês";
+        return  base.CalcularPrestação(Valor, Parcelas) + 3;
     }
 }

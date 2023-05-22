@@ -6,7 +6,6 @@ class Contrato
     public string? Telefone{get;set;}
     public int Valor{get;set;}
     public int Parcelas{get;set;}
-    public int Total{get;set;}
 
 
     //Declarando o que as "classes filhas" vão herdar da "classe mãe"
@@ -16,10 +15,9 @@ class Contrato
         return tudo;
     }
 
-    public virtual string CalcularPrestação()
+    public virtual double CalcularPrestação(int Valor, int Parcelas)
     {
-        Total = Valor/Parcelas;
-        return "O valor da parcela sem juros é de: R$" + Total + ",00 por mês. ";
+        return Valor/Parcelas;
     }
     
 }
